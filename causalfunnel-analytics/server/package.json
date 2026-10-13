@@ -1,0 +1,14 @@
+{
+  "name": "cf-analytics-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "nodemon server.js", "seed": "node seed.js", "checkdb": "node checkdb.js" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": { "nodemon": "^3.1.4" }
+}

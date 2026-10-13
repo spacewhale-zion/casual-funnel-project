@@ -1,0 +1,29 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,sans-serif;background:#f4f5f7;color:#222}
+.navbar{background:#111;color:#fff;display:flex;align-items:center;gap:20px;padding:14px 24px}
+.navbar .brand{font-weight:700;margin-right:auto}
+.navbar a{color:#bbb;text-decoration:none;padding:6px 10px;border-radius:6px}
+.navbar a.active{background:#e63946;color:#fff}
+main{padding:20px;max-width:1400px;margin:auto}
+.two-col{display:grid;grid-template-columns:1.2fr 1fr;gap:20px}
+@media(max-width:900px){.two-col{grid-template-columns:1fr}}
+.panel{background:#fff;border-radius:10px;padding:18px;box-shadow:0 1px 3px rgba(0,0,0,.1);overflow:auto}
+h2{margin-top:0}h2 small{color:#888;font-weight:400}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px;border-bottom:1px solid #eee}
+tbody tr{cursor:pointer}tbody tr:hover{background:#f9f9fb}tr.sel{background:#ffe9eb!important}
+.pager{display:flex;gap:12px;align-items:center;margin-top:12px}
+button{padding:6px 12px;border:1px solid #ccc;background:#fff;border-radius:6px;cursor:pointer}
+button.active{background:#e63946;color:#fff;border-color:#e63946}button:disabled{opacity:.4;cursor:default}
+.timeline{list-style:none;padding:0;margin:0;border-left:2px solid #ddd;margin-left:12px}
+.timeline li{display:flex;gap:12px;padding:0 0 16px 14px;position:relative}
+.timeline .icon{position:absolute;left:-15px;background:#fff;font-size:18px}
+.timeline li>div{margin-left:18px}
+.time{color:#888;font-size:12px;margin-left:6px}
+.url{font-size:13px;color:#0a58ca;word-break:break-all}.xy{font-size:12px;color:#666}
+.error{color:#c1121f}.hint{color:#888;font-size:12px}
+.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+select{padding:6px;min-width:280px}
+.hm-wrap{position:relative;background:#e5e5e5;overflow:hidden;border:1px solid #ccc}
+.hm-wrap iframe{position:absolute;top:0;left:0;border:0;transform-origin:top left;pointer-events:none}
+.hm-wrap canvas{position:absolute;top:0;left:0}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>All Products - ShopDemo</title>
+<style>
+ body{margin:0;font-family:system-ui,sans-serif;color:#222}
+ header{background:#111;color:#fff;padding:16px 32px;display:flex;justify-content:space-between;align-items:center}
+ header a{color:#fff;margin-left:20px;text-decoration:none}
+ .hero{background:#eef;padding:80px 32px;text-align:center}
+ .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px;padding:32px;max-width:1100px;margin:auto}
+ .card{border:1px solid #ddd;border-radius:8px;padding:16px;text-align:center}
+ .img{height:140px;background:#ccd;border-radius:6px;margin-bottom:10px}
+ button{background:#e63946;color:#fff;border:0;padding:10px 16px;border-radius:6px;cursor:pointer}
+ footer{background:#111;color:#aaa;padding:60px 32px;text-align:center;margin-top:40px}
+</style></head><body>
+<header><strong>ShopDemo</strong><nav><a href="index.html">Home</a><a href="products.html">Products</a><a href="#">Cart</a></nav></header>
+<div class="hero"><h1>All Products</h1><p>Click around - every click is tracked.</p><button>Shop now</button></div>
+<div class="grid">
+<div class="card"><div class="img"></div><h3>Product 1</h3><p>$19.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 2</h3><p>$29.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 3</h3><p>$39.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 4</h3><p>$49.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 5</h3><p>$59.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 6</h3><p>$69.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 7</h3><p>$79.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 8</h3><p>$89.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 9</h3><p>$99.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 10</h3><p>$109.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 11</h3><p>$119.99</p><button>Add to cart</button></div>
+<div class="card"><div class="img"></div><h3>Product 12</h3><p>$129.99</p><button>Add to cart</button></div>
+</div>
+<footer><p>About &middot; Contact &middot; Privacy</p></footer>
+<script src="../tracker.js" data-api="http://localhost:5000"></script>
+</body></html>
